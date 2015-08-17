@@ -23,6 +23,7 @@ declare module 'minimist' {
 
 		export interface ParsedArgs {
 			_: string[];
+			[key: string]: any;
 		}
 	}
 
